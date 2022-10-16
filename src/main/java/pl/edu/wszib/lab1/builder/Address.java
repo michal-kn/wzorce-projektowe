@@ -45,4 +45,15 @@ public class Address {
 
     }
 
+
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", houseNumber='" + houseNumber + '\'' +
+                ", postCode='" + postCode + '\'' +
+                '}';
+    }
 }
